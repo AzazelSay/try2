@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.pt
+artifacts/*.bin
+
+# OS
+.DS_Store
+Thumbs.db
